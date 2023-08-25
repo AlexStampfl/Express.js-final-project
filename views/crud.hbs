@@ -1,0 +1,42 @@
+<main>
+    <h1>{{ title }}</h1>
+    <h4>REST APIs From Unit 12</h4>
+    <hr>
+    <br>
+    <table class="table table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">_id</th>
+                <th scope="col">User ID</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Title</th>
+                <th scope="col">Website</th>
+            </tr>
+        </thead>
+        <tbody class="results">
+            {{#each users}}
+            <tr>
+                <td>{{ _id }}</td>
+                <td>{{ userid }}</td>
+                <td>{{ first_name }}</td>
+                <td>{{ last_name }}</td>
+                <td>{{ title }}</td>
+                <td>{{ Website }}</td>
+            </tr>
+            {{/each}}
+
+            {{#if singleUser}}
+            <h4>Singe User:</h4>
+            <tr>
+                <td>{{singleUser._id}}</td>
+                <td>{{singleUser.userid}}</td>
+                <td>{{singleUser.first_name}}</td>
+                <td>{{singleUser.last_name}}</td>
+                <td>{{singleUser.title}}</td>
+                <td>{{singleUser.Website}}</td>
+            </tr>
+            {{/if}}
+        </tbody>
+    </table>
+</main>

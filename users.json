@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "64c2f731af16ed002887a5a3"
+  },
+  "userid": 1,
+  "first_name": "Harry",
+  "last_name": "Potter",
+  "title": "Wizard",
+  "Website": "harrypotter.com"
+},
+{
+  "_id": {
+    "$oid": "64c2feecaf16ed002887a5a5"
+  },
+  "userid": 2,
+  "first_name": "Larry",
+  "last_name": "Totter",
+  "title": "Lizard",
+  "Website": "LarryTotter.com"
+},
+{
+  "_id": {
+    "$oid": "64c2ff46af16ed002887a5a7"
+  },
+  "userid": 3,
+  "first_name": "Mary",
+  "last_name": "Sotter",
+  "title": "Teacher",
+  "Website": "marysotter.com"
+}]

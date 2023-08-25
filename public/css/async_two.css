@@ -1,0 +1,93 @@
+/* body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+} */
+#ajax-container {
+    margin:0 auto 10px auto;
+    padding:0 0 50px 0;
+    text-align: center;
+    
+
+}
+#ajax-nav {
+    background-color: blueviolet;
+    color: white;
+    padding: 2px 0 20px 0;
+}
+
+/* header {
+    background-color: blueviolet;
+    color: white;
+    padding: 2px 0 20px 0;
+}
+footer {
+    background-color: blueviolet;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px;
+    margin: 5px auto 0px auto;
+} */
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+}
+button {
+    background-color: white;
+    color: black;
+    font-size: larger;
+    margin: 2px;
+    padding: 5px;
+    width: 100px;
+}
+button:hover {
+    background-color: fuchsia;
+    color: white;
+    cursor: pointer;
+}
+
+/* forms */
+form {
+    margin:30px auto;
+    font-size: large;
+    width: 500px;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.form-controls {
+    margin: 10px auto;
+}
+.form-controls input {
+    width: 200px;
+}
+.form-controls label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+#form-put-post {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.table-books {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 30px auto;
+}
+th, td {
+    padding: 15px;
+    border: 1px solid;
+}
+th {
+    background-color: lightblue;
+}
