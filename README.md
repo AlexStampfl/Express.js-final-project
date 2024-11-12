@@ -6,3 +6,5 @@ This projct utilizes Express.js, handlebars, websockets(socketio), CRUD APIs whi
 
 ### How to Run the Program
 In Visual Studio Code, open the terminal. You can use either 'nodemon' - but you have to install nodemon first in order to use it. Or you can use 'node index.js' which then displays the localhost port. Click that localhost link to open up the project in the browser. 
+
+- Video of Project --> public_html/media/express_project_video.mp4 
