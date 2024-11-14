@@ -1,7 +1,7 @@
 # Express.js Final Project
 
 ### Description
-This is my Express.js final project for the fifth semester class advanced web programming.
+This is my Express.js final project for the fifth semester class advanced web programming at Gateway Technical College.
 This projct utilizes Express.js, handlebars, websockets(socketio), CRUD APIs which connects to a mongodb database. The table which displays the database content is a boostrap table. On the last tab there is a drag and drop table game.
 
 ### How to Run the Program
